@@ -1,5 +1,10 @@
 # MDSE
 
-## EXPERIMENTS
+This is the repository of *MDSA:MODALITY-DEPENDENT SENTIMENTS EXPLORING FOR MULTI-MODAL SENTIMENT CLASSIFICATION*
 
-Experimental results of the model on the MVSA-S, MVSA-M and Twitter datasets(%). 
+## Data
+
+For the MVSA-S dataset, we will create a dataset folder and then an MVSA-single folder to store the text and image data.
+
+
+
