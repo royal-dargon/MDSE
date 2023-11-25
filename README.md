@@ -4,7 +4,7 @@ This is the repository of *MODALITY-DEPENDENT SENTIMENTS EXPLORING FOR MULTI-MOD
 
 ## Highlights
 
-<img src="/Users/baron/src/MDSE/img/mdse.jpg" style="zoom:20%;" />
+<img src="./img/mdse.jpg" style="zoom:20%;" />
 
 ## MDSE on MSA Results
 
