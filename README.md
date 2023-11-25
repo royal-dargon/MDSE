@@ -70,9 +70,11 @@ This is the repository of *MODALITY-DEPENDENT SENTIMENTS EXPLORING FOR MULTI-MOD
 |  MDSE(Base/VIT)   |   70.98   |   70.91   |
 |    MDSE(ours)     | **72.77** | **72.63** |
 
-## Example
+## Visual Example
 
+*  **Visualizations of sentiment classification scores**
 
+<img src="./img/visual.png" style="zoom:25%;" />
 
 
 
