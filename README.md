@@ -80,5 +80,5 @@ This is the repository of *MODALITY-DEPENDENT SENTIMENTS EXPLORING FOR MULTI-MOD
 
 <img src="./img/visual_new.png" style="zoom:25%;" />
 
-Above is a visual analysis of the effect of the MDSE model on private features learning(**PFL**). In the first image-text data pair, the labels of image and text are neutral and positive, respectively, and the final label is positive. From the result, if the text private feature learning(**tPFL**) module is ignored, the final result will be wrong, indicating that the part marked by the red box in the text data is important to the result. In the second data pair, the image part is marked with a green box as the private feature of the image, and it can be found that if ignored, the result will become neutral.
+Above is a visual analysis of the effect of the MDSE model on private features learning(**PFL**). In the first image-text data pair, the labels of image and text are neutral and positive, respectively, and the final label is positive. From the result, if the text private feature learning(**tPFL**) module is ignored, the final result will be wrong, indicating that the part marked by the green box in the text data is important to the result. In the second data pair, the image part is marked with a green box as the private feature of the image, and it can be found that if ignored, the result will become neutral.
 
