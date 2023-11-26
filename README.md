@@ -4,7 +4,7 @@ This is the repository of *MODALITY-DEPENDENT SENTIMENTS EXPLORING FOR MULTI-MOD
 
 * **Overview of the proposed MDSE framework**
 
-<img src="./img/mdse.jpg" style="zoom:20%;" />
+<img src="./img/mdse_new.png" style="zoom:10%;" />
 
 ## MDSE on Multimodal Sentiment Classification Results
 
@@ -18,6 +18,7 @@ This is the repository of *MODALITY-DEPENDENT SENTIMENTS EXPLORING FOR MULTI-MOD
 |       MGNNS       |   73.77   |   72.70   |
 |       TBNMD       |   75.22   |   73.46   |
 |       CLMLF       |   75.33   |   73.46   |
+| MDSE(Base/VGG-19) |   74.33   |   74.38   |
 |   MDSE(VGG-19)    |   74.22   |   73.20   |
 | MDSE(Base/ResNet) |   73.33   |   72.74   |
 |   MDSE(ResNet)    |   75.93   |   74.83   |
@@ -34,6 +35,7 @@ This is the repository of *MODALITY-DEPENDENT SENTIMENTS EXPLORING FOR MULTI-MOD
 |       MGNNS       |   72.49   |   69.34   |
 |       TBNMD       |   70.72   |   67.94   |
 |       CLMLF       |   72.00   |   69.83   |
+| MDSE(Base/VGG-19) |   70.17   |   68.74   |
 |   MDSE(VGG-19)    |   71.23   |   68.10   |
 | MDSE(Base/ResNet) |   70.29   |   67.65   |
 |   MDSE(ResNet)    |   71.97   |   69.92   |
@@ -50,6 +52,7 @@ This is the repository of *MODALITY-DEPENDENT SENTIMENTS EXPLORING FOR MULTI-MOD
 |     CapTrBERT     |   78.01   |   73.25   |
 |       TBNMD       |   76.73   |   71.19   |
 |       CLMLF       |   78.11   |   74.60   |
+| MDSE(Base/VGG-19) |   73.44   |   73.14   |
 |   MDSE(VGG-19)    |   75.77   |   73.22   |
 | MDSE(Base/ResNet) |   75.04   |   73.75   |
 |   MDSE(ResNet)    |   78.05   |   74.92   |
@@ -64,6 +67,7 @@ This is the repository of *MODALITY-DEPENDENT SENTIMENTS EXPLORING FOR MULTI-MOD
 |     CapTrBERT     |   72.30   |   70.20   |
 |       TBNMD       |   71.52   |   70.18   |
 |       CLMLF       |   70.98   |   69.13   |
+| MDSE(Base/VGG-19) |   70.58   |   70.52   |
 |   MDSE(VGG-19)    |   70.98   |   71.02   |
 | MDSE(Base/ResNet) |   70.91   |   70.92   |
 |   MDSE(ResNet)    |   71.93   |   71.88   |
@@ -74,7 +78,7 @@ This is the repository of *MODALITY-DEPENDENT SENTIMENTS EXPLORING FOR MULTI-MOD
 
 *  **Visualizations of sentiment classification scores**
 
-<img src="./img/visual.png" style="zoom:25%;" />
+<img src="./img/visual_new.png" style="zoom:25%;" />
 
-
+Above is a visual analysis of the effect of the MDSE model on private features learning(**PFL**). In the first image-text data pair, the labels of image and text are neutral and positive, respectively, and the final label is positive. From the result, if the text private feature learning(**tPFL**) module is ignored, the final result will be wrong, indicating that the part marked by the red box in the text data is important to the result. In the second data pair, the image part is marked with a green box as the private feature of the image, and it can be found that if ignored, the result will become neutral.
 
