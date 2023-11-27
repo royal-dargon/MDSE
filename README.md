@@ -4,7 +4,7 @@ This is the repository of *MODALITY-DEPENDENT SENTIMENTS EXPLORING FOR MULTI-MOD
 
 * **Overview of the proposed MDSE framework**
 
-<img src="./img/mdse_new.png" style="zoom:10%;" />
+<img src="./img/mdse.png" style="zoom:10%;" />
 
 ## MDSE on Multimodal Sentiment Classification Results
 
